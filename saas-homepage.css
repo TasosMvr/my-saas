@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+    color: #0f172a;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    align-items: center;   
+    gap: 10px;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+.nav-links{
+    display: flex;
+    gap: 40px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #0f172a;
+    font-weight: 500;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 80px;
+    border-bottom: 1px solid #e5e7eb;
+    background-color: white;
+}
+.schedule-btn button{
+    background-color: #007bff;
+    color: #fff;
+    border:none;
+    padding: 18px 25px;
+    border-radius:6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease,box-shadow 0,3s ease;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+}
+.schedule-btn button :hover{
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+.Hero-box{
+    max-width :100vw;
+    Background-color: #f9fbff; 
+    padding: 80px 6%;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Hero-content h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color:#0b1b3f;
+    font-family:"Plus Jakarta Sans", sans-serif;
+}
+.Hero-content h1 span {
+    color: #007bff;
+}
+.Hero-content p{
+    font-size: 1.1rem;
+    color: #555;
+    margin: 20px 0;
+    max-width: 600;
+    line-height: 1.6;
+    margin-bottom: 30px 10%;
+}
+.Hero-content{
+    text-align: left;
+    max-width: 800px;
+    margin-left: 5%;
+    margin-right: auto;
+    display: block;
+}
+
+.Hero-description{
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 600px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+}
+.Hero-icons{
+    display: flex;
+    gap:40px;
+    margin-bottom: 40px;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    margin-top: 40px;
+}
+.featured-item img{
+   width: 15px;
+   height: 15px;
+   padding-right: 10px;
+}
+.feature-item{
+    font-weight: 600;
+    color:#0b1b3f;
+    display: flex;
+    align-items: center;
+    gap:8px;
+    padding-top:80px 10% ;
+}
+.Hero-bottom{
+    display: flex;
+    gap:60px;
+    margin-top: 20px;
+}
+.Bottom-item{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #0b1b3f;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    font-weight: 400;
+}
+
+.icon{
+    font-size: 1.5rem;
+    color:#007bff;
+}
+
+.features-section{
+    max-width: 100vw;
+    background-color: #f9fbff;
+    text-align: center;
+    padding: 80px 10%;
+    overflow-x: hidden ;
+}
+.section-label{
+    color: #007bff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.features-section h2{
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #0b1b3f;
+    margin-bottom: 10px;
+}
+.section-description{
+    color:#555;
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+}
+.features-grid{
+    display:flex;
+    justify-content: center;
+    gap:60px;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+}
+.feature-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    text-align: center;
+}
+.feature-item img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.feature-item h3 {
+  font-family:"Plus Jakarta Sans", sans-serif ;  
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #0b1b3f;
+  margin-bottom: 10px;
+}
+.feature-item p{
+    color:#555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+}
+
+.How-it-works{
+    text-align: center;
+    padding: 80px 6%;
+    box-sizing: border-box ;
+    max-width: 100vw;
+}
+.How-it-works h2{
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0b1b3f;
+    margin-bottom: 50px;
+}
+.steps-grid{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.step-item{
+    width: 220px;
+    text-align: center;
+}
+.step-number{
+    background-color: #007bff;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto 15px;
+    font-size: 1.1rem;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+}
+.step-item p{
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+}
+
+
+.cta-section{
+    background-color: #f0f5ff;
+    padding: 60px 6%;
+    border-radius: 12px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+.cta-content{
+    flex:1 1 600px;
+}
+.cta-content h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #0b1b3f;
+    margin-bottom: 15px;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+}
+.cta-content h4{
+    color: #007bff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.cta-content p{
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 600px;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+}
+
+.cta-button{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 25px;
+    flex-direction: column;
+    gap:8px;
+    
+}
+.cta-button button{
+    background-color: #007bff;
+    color: #fff;
+    border:none;
+    padding: 18px 25px;
+    border-radius:6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease,box-shadow 0,3s ease;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+}
+.cta-button button:hover{
+    background-color: #0056b3;
+}
+.cta-button span{
+    color: #555;
+    font-size: 0.9rem;
+    font-family:"Plus Jakarta Sans", sans-serif ;
+    font-size: 1rem;
+    
+}

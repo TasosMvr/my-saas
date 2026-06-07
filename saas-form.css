@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+    background: linear-gradient(135deg, #4a00e0, #8e2de2);
+}
+
+.name {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.formP{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    color: white;
+    background: linear-gradient(-135deg, #4a00e0, #8e2de2);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 516px;
+    border: 2px solid white;
+    margin : auto;
+    border-radius: 10px;
+    font-weight: bold;
+}   
+
+
+
+.form,
+.form input, .form select 
+
+ {
+    
+    display: flex;
+
+    width: 500px;
+    border: 10px solid white;
+    margin : auto;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    text-align: left;
+    border-radius: 10px;
+    background-color: white;
+    justify-content: center;
+ }
+
+ .form input, .form select {
+
+    height: 5vh;
+    border-radius: 10px;
+    width: 100%;
+    border: 2px solid lightgray;
+    padding: 5px;
+    text-align: left;
+ 
+ }
+
+    
+
+.submit input {
+    display : flex;
+    justify-content: center;
+    width: 20%;
+    height: 5vh;
+    margin : auto;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+.Dlabels, .Dlabels label {
+    font-family : "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    color: black;  
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: bold;
+
+}
