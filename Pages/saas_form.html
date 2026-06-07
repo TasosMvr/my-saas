@@ -8,43 +8,43 @@
 </head>
 <body>
     
-    <div class="name">
+    <div class="topbar">
+        <div class="name">        
+            <img src="/Images/logo.png" alt="Logo">
         <h1> AutoFlow</h1>
-       
+        </div>
     </div>
-
 
     <div class="formP">
         <p> Please fill out the form below to submit your request. </p>
     </div>
 
-    <br>
+
 
 
     <div class="form">
     <form action="action_page.php" method="post">
 
-        <br>
+    
         <div>
-            <div class="Dlabels">
-                
+            <div class="Dlabels">               
                 <label for="bName"> Business Name </label>
             </div>
 
-            <br>
+
 
             <div class="Fin">
                 <input type="text" id="bName" name="bName" placeholder="Enter your business name" required>
             </div>
         </div>
-        <br>
+
 
 
         <div>
             <div class="Dlabels">
             <label for="bType"> Business Type </label>
             </div>
-            <br>
+
             <div class="Fin">
             <select id="bType" name="bType" required>
                 <option value="" disabled selected>Select your business type</option>
@@ -54,60 +54,61 @@
             </select>
             </div>
         </div>
-        <br>
+
 
 
         <div> 
             <div class="Dlabels">
                 <label for="email"> Email </label>
             </div>
-            <br>
+
 
             <div class="Fin">
                 <input type="email" id="email" name="email" placeholder="Enter your email" required>
             </div>
         </div>
-        <br>
+
 
 
         <div>
             <div class="Dlabels">
             <label for="phone"> Phone Number </label>
             </div>
-            <br>
+
             <div class="Fin">
                 <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
             </div>
         </div>
-        <br>
+
 
 
         <div>
             <div class="Dlabels">
             <label for="date"> Date </label>
             </div>
-            <br>
+
         </div>  
             <div class="Fin">
                 <input type="date" id="date" name="date" required>
             </div>
-            <br>
-        </div>
-        <br>
-        <br>
-        <br>
 
-    </div>
+
+
+        <div class="Dlabels">
+            <label for="Time"> Time</label>
+        </div>
+
+        <div class="Fin">
+            <input type="time" id="Time" name="time" required>
+        </div>
+
+        
+        </div>
+
+
+     </div> 
         <div class="submit">
             <input type="submit" value="Submit Request">
         </div>
-
+      
     </form>
-        
-
-
-
-
-
-</body>
-</html>
