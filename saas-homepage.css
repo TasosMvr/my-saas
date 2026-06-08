@@ -220,6 +220,9 @@
     width: 220px;
     text-align: center;
 }
+.step-item h3{
+     font-family:"Plus Jakarta Sans", sans-serif ;
+}
 .step-number{
     background-color: #007bff;
     color: #fff;
