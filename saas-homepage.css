@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family:"Plus Jakarta Sans", sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
 .logo{
     font-size: 24px;
     font-weight: 700;
@@ -33,7 +47,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    overflow-x: hidden;
     padding: 20px 80px;
     border-bottom: 1px solid #e5e7eb;
     background-color: white;
@@ -46,10 +60,10 @@
     border-radius:6px;
     font-size: 1rem;
     cursor: pointer;
-    transition: background-color 0.3s ease,box-shadow 0,3s ease;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
     font-family:"Plus Jakarta Sans", sans-serif ;
 }
-.schedule-btn button :hover{
+.schedule-btn button:hover{
     background-color: #0056b3;
 }
 
@@ -80,16 +94,16 @@
     font-size: 1.1rem;
     color: #555;
     margin: 20px 0;
-    max-width: 600;
+    max-width: 600px;
     line-height: 1.6;
-    margin-bottom: 30px 10%;
+    margin-bottom: 30px;
 }
 .Hero-content{
     text-align: left;
     max-width: 800px;
     margin-left: 5%;
     margin-right: auto;
-    display: block;
+    display: inline-block;
 }
 
 .Hero-description{
@@ -108,17 +122,19 @@
     margin-top: 40px;
 }
 .featured-item img{
-   width: 15px;
+   width: 26px;
    height: 15px;
    padding-right: 10px;
+   aspect-ratio: 1.1;
 }
 .feature-item{
     font-weight: 600;
     color:#0b1b3f;
-    display: flex;
+    display: block;
     align-items: center;
     gap:8px;
     padding-top:80px 10% ;
+    flex-shrink: 0;
 }
 .Hero-bottom{
     display: flex;
@@ -221,7 +237,7 @@
     text-align: center;
 }
 .step-item h3{
-     font-family:"Plus Jakarta Sans", sans-serif ;
+    font-family:"Plus Jakarta Sans", sans-serif ;
 }
 .step-number{
     background-color: #007bff;
@@ -299,7 +315,7 @@
     border-radius:6px;
     font-size: 1rem;
     cursor: pointer;
-    transition: background-color 0.3s ease,box-shadow 0,3s ease;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
     font-family:"Plus Jakarta Sans", sans-serif ;
 }
 .cta-button button:hover{
@@ -311,4 +327,191 @@
     font-family:"Plus Jakarta Sans", sans-serif ;
     font-size: 1rem;
     
+}
+
+@media (max-width: 900px){
+    .navbar{
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 18px;
+        padding: 18px 6%;
+    }
+
+    .nav-links{
+        order: 3;
+        width: 100%;
+        gap: 18px;
+        overflow-x: auto;
+        padding-bottom: 4px;
+    }
+
+    .nav-links a{
+        flex: 0 0 auto;
+        font-size: 0.95rem;
+    }
+
+    .schedule-btn button,
+    .cta-button button{
+        padding: 14px 20px;
+    }
+
+    .Hero-box,
+    .features-section,
+    .How-it-works{
+        padding: 60px 6%;
+    }
+
+    .Hero-content{
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .Hero-content h1{
+        font-size: 2.25rem;
+        line-height: 1.15;
+    }
+
+    .Hero-icons,
+    .Hero-bottom,
+    .steps-grid{
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .Hero-icons{
+        margin-bottom: 28px;
+    }
+
+    .Bottom-item{
+        align-items: flex-start;
+    }
+
+    .features-grid{
+        gap: 28px;
+        margin-bottom: 40px;
+    }
+
+    .feature-item,
+    .step-item{
+        width: min(100%, 320px);
+    }
+
+    .cta-section{
+        margin-top: 50px;
+        padding: 44px 6%;
+        gap: 24px;
+        border-radius: 0;
+    }
+
+    .cta-content{
+        flex-basis: 100%;
+    }
+
+    .cta-button{
+        align-items: flex-start;
+        width: 100%;
+    }
+}
+
+@media (max-width: 560px){
+    .logo{
+        font-size: 1.15rem;
+    }
+
+    .logo img{
+        width: 34px;
+        height: 34px;
+    }
+
+    .navbar{
+        padding: 16px 5%;
+    }
+
+    .navbar > a{
+        width: 100%;
+        text-decoration: none;
+    }
+
+    .schedule-btn button,
+    .cta-button button{
+        width: 100%;
+        min-height: 48px;
+        font-size: 0.95rem;
+    }
+
+    .nav-links{
+        gap: 14px;
+    }
+
+    .nav-links a{
+        font-size: 0.9rem;
+    }
+
+    .Hero-box,
+    .features-section,
+    .How-it-works{
+        padding: 44px 5%;
+    }
+
+    .Hero-content h1{
+        font-size: 1.85rem;
+    }
+
+    .Hero-description,
+    .section-description{
+        font-size: 1rem;
+    }
+
+    .Hero-icons{
+        gap: 14px;
+        margin-top: 28px;
+    }
+
+    .featured-item{
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .featured-item img{
+        flex: 0 0 15px;
+        padding-right: 0;
+        margin-top: 3px;
+    }
+
+    .Hero-bottom{
+        gap: 14px;
+    }
+
+    .Bottom-item img{
+        width: 34px;
+        height: 34px;
+    }
+
+    .features-section h2,
+    .How-it-works h2,
+    .cta-content h2{
+        font-size: 1.55rem;
+        line-height: 1.2;
+    }
+
+    .section-description{
+        margin-bottom: 34px;
+    }
+
+    .features-grid{
+        gap: 22px;
+    }
+
+    .feature-item{
+        padding-top: 0;
+    }
+
+    .How-it-works h2{
+        margin-bottom: 32px;
+    }
+
+    .cta-section{
+        padding: 36px 5%;
+    }
 }
